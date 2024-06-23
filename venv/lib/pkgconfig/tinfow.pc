@@ -7,13 +7,13 @@ libdir=${exec_prefix}/lib
 includedir=${prefix}/include/ncursesw
 abi_version=6
 major_version=6
-version=6.4.20221231
+version=6.5.20240427
 
 Name: tinfow
-Description: ncurses 6.4 terminal interface library
+Description: ncurses 6.5 terminal interface library
 Version: ${version}
 URL: https://invisible-island.net/ncurses
 Requires.private: 
-Libs:  -L/Users/mohitsarin/Documents/GitHub/RAG-LLM-Application/venv/lib -Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/mohitsarin/Documents/GitHub/RAG-LLM-Application/venv/lib -Wl,-search_paths_first -ltinfow
+Libs:  -L/Users/mohitsarin/Documents/GitHub/RAG-LLM-Application/venv/lib -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/mohitsarin/Documents/GitHub/RAG-LLM-Application/venv/lib -Wl,-search_paths_first -ltinfow
 Libs.private:  
 Cflags:  -D_DARWIN_C_SOURCE -DNCURSES_WIDECHAR -I${includedir} -I/Users/mohitsarin/Documents/GitHub/RAG-LLM-Application/venv/include

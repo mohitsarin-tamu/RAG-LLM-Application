@@ -1,12 +1,11 @@
-prefix=/Users/mohitsarin/Documents/GitHub/RAG-LLM-Application/venv
-exec_prefix=${prefix}
-libdir=${exec_prefix}/lib
-includedir=${prefix}/include
-enginesdir=${libdir}/engines-1.1
+libdir=/Users/mohitsarin/Documents/GitHub/RAG-LLM-Application/venv/lib
+includedir=/Users/mohitsarin/Documents/GitHub/RAG-LLM-Application/venv/include
+enginesdir=/Users/mohitsarin/Documents/GitHub/RAG-LLM-Application/venv/lib/engines-3
+modulesdir=/Users/mohitsarin/Documents/GitHub/RAG-LLM-Application/venv/lib/ossl-modules
 
 Name: OpenSSL-libcrypto
 Description: OpenSSL cryptography library
-Version: 1.1.1w
+Version: 3.3.1
 Libs: -L${libdir} -lcrypto
-Libs.private:  
+Libs.private: 
 Cflags: -I${includedir}

@@ -1,11 +1,9 @@
-prefix=/Users/mohitsarin/Documents/GitHub/RAG-LLM-Application/venv
-exec_prefix=${prefix}
-libdir=${exec_prefix}/lib
-includedir=${prefix}/include
+libdir=/Users/mohitsarin/Documents/GitHub/RAG-LLM-Application/venv/lib
+includedir=/Users/mohitsarin/Documents/GitHub/RAG-LLM-Application/venv/include
 
 Name: OpenSSL-libssl
 Description: Secure Sockets Layer and cryptography libraries
-Version: 1.1.1w
+Version: 3.3.1
 Requires.private: libcrypto
 Libs: -L${libdir} -lssl
 Cflags: -I${includedir}
