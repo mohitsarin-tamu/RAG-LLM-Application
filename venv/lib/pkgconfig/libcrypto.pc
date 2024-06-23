@@ -1,0 +1,11 @@
+libdir=/Users/mohitsarin/Documents/GitHub/RAG-LLM-Application/venv/lib
+includedir=/Users/mohitsarin/Documents/GitHub/RAG-LLM-Application/venv/include
+enginesdir=/Users/mohitsarin/Documents/GitHub/RAG-LLM-Application/venv/lib/engines-3
+modulesdir=/Users/mohitsarin/Documents/GitHub/RAG-LLM-Application/venv/lib/ossl-modules
+
+Name: OpenSSL-libcrypto
+Description: OpenSSL cryptography library
+Version: 3.3.1
+Libs: -L${libdir} -lcrypto
+Libs.private: 
+Cflags: -I${includedir}
